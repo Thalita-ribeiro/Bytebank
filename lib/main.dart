@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 void main() => runApp(MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Transferências'),),
+          title: Text('Transferências'),
+        ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {  },
+          onPressed: () {},
           child: Icon(Icons.add),
         ),
       ),
